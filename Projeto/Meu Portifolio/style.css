@@ -1,0 +1,201 @@
+* {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 0 0 0;
+    color: rgba(0, 0, 0, 0.973);
+    font-family: "Poppins", sans-serif;
+}
+
+.aside_informacoes {
+    background-image: linear-gradient(to right, rgb(211, 0, 0), rgb(219, 75, 75), rgb(219, 170, 170), rgba(255, 255, 255, 0.486));
+    float: left;
+    width: 30vw;
+    height: 100vh;
+}
+
+.content {
+    display: none;
+    height: 320px;
+    width: 70vw;
+    position: fixed;
+    right: 0;
+    top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.perfil {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    background-image: linear-gradient(to right, rgb(211, 0, 0), rgb(219, 75, 75), rgb(219, 170, 170), rgba(255, 255, 255, 0.486));
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, rgb(211, 0, 0), rgb(219, 75, 75), rgb(219, 170, 170), rgba(255, 255, 255, 0.486));
+}
+
+h5, h6 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* Tabela F.A*/
+.tabela_form_acad {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    list-style: outside;
+}
+
+label {
+    background-image: linear-gradient(to right, rgb(211, 0, 0), rgb(219, 75, 75), rgb(219, 170, 170), rgba(255, 255, 255, 0.486));
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+label:hover {
+    cursor: pointer;
+    color: rgb(85, 81, 81);
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;/*remover marcadores*/
+    background-color: rgb(211, 0, 0);
+}
+
+.button {
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 4px black;
+}
+
+#github {
+    background-color: #2c2828e5;
+}
+
+#linkedin {
+    background-color: #5492e9;
+}
+
+#youtube {
+    background-color:#be1616;
+}
+
+#github:hover {
+    background-color: #0000005b;
+}
+
+#linkedin:hover {
+    background-color: #5492e95d;
+}
+
+#youtube:hover {
+    background-color:#be161673;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+    margin-top: 20px;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.row_1 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proj_1,.proj_2, .proj_3 {
+    border-radius: 3px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+.proj_1:hover, .proj_2:hover, .proj_3:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.proj_1 p, .proj_2 p, .proj_3 p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+
+.image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.proj_1 {
+    border-left: 3px solid #4895ff;
+}
+
+.proj_2 {
+    border-left: 3px solid #3bb54a;
+}
+
+.proj_3 {
+    border-left: 3px solid #b53b3b;
+}
+
+.conteudo_sobre {
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.rd_tabs {
+    display: none;
+}
+
+.rd_tabs:checked ~ .content {
+    display: block;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.rd_tabs:checked ~ label {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
