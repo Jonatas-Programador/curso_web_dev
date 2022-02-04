@@ -7,8 +7,8 @@
 
 ##Projetos Desenvolvidos
 
--[Site Meu Curriculo](https://my-curriculo-jn.netlify.app)
--[Site Meu Escritório](https://escritorio-livraria.netlify.app)
--[Site Clone Netflix (GETFLIX)](https://getflix-net.netlify.app)
--[Site Tabuada](https://tabuada-jn.netlify.app)
--[Meu Portifolio](https://portifolio-jonatas.netlify.app)
+- [Site Meu Curriculo](https://my-curriculo-jn.netlify.app/)
+- [Site Meu Escritório](https://escritorio-livraria.netlify.app/)
+- [Site Clone Netflix (GETFLIX)](https://getflix-net.netlify.app/)
+- [Site Tabuada](https://tabuada-jn.netlify.app/)
+- [Meu Portifolio](https://portifolio-jonatas.netlify.app/)
