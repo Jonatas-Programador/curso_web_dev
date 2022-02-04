@@ -5,7 +5,7 @@
 ![Badge](https://img.shields.io/github/forks/Jonatas-Programador/curso_web_dev)
 ![Badge](https://img.shields.io/github/license/Jonatas-Programador/curso_web_dev)
 
-##Projetos Desenvolvidos
+## Projetos Desenvolvidos
 
 - [Site Meu Curriculo](https://my-curriculo-jn.netlify.app/)
 - [Site Meu Escritório](https://escritorio-livraria.netlify.app/)
